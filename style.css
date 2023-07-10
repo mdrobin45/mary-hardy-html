@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
+body {
+   font-family: "Open Sans", sans-serif;
+   margin: 0;
+   padding: 0;
+}
+.container {
+   width: 90%;
+   margin: auto;
+}
+a {
+   text-decoration: none;
+   color: inherit;
+}
+p {
+   font-size: 16px;
+   color: #757575;
+   line-height: 1.6;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: #474747;
+}
+h4 {
+   margin: 0;
+}
+img {
+   width: 100%;
+}
+.hero-section {
+   display: flex;
+   justify-content: space-between;
+   background-color: #fff8f3;
+   background-image: url(/images/header_bg.png);
+   background-position: bottom right;
+   background-repeat: no-repeat;
+   background-size: 40rem;
+   align-items: center;
+   padding-left: 20px;
+}
+.banner-right img {
+   margin-bottom: -5px;
+}
+.banner-left p {
+   width: 75%;
+}
+.hero-wrapper header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.left .logo {
+   font-size: 38px;
+}
+.left .logo span {
+   color: #fd6e0a;
+}
+.hero-wrapper header .right {
+   display: flex;
+}
+.hero-wrapper header .right ul {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+}
+.hero-wrapper header .right ul a {
+   margin: 0 25px;
+}
+.hero-wrapper header .right ul li {
+   list-style: none;
+   font-size: 16px;
+}
+.hero-wrapper .banner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.banner-btn-group {
+   display: flex;
+}
+.btn {
+   background-color: #fd6e0a;
+   padding: 10px;
+   font-size: 16px;
+   border: 0;
+   color: #fff;
+   border-radius: 4px;
+}
+.banner-left {
+   margin-left: 5%;
+}
+.banner-left h3 {
+   font-weight: 600;
+   font-size: 32px;
+   margin: 0;
+}
+.banner-left h1 {
+   font-size: 48px;
+   font-weight: 700;
+   margin-top: 16px;
+}
+.banner-btn-group a:nth-child(2) {
+   margin-left: 20px;
+}
+section.about-section {
+   background: #fff8f3;
+   width: 70%;
+   margin: 7rem auto;
+   padding: 6rem 5rem;
+   border-radius: 5px;
+   text-align: center;
+}
+.about-person-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.about-person-wrapper p {
+   margin-bottom: 0;
+}
+.about-person-wrapper h4 {
+   font-weight: 600;
+}
+section.what-do header {
+   text-align: center;
+}
+section.what-do header p {
+   width: 75%;
+   margin: auto;
+}
+.skills-wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.skills-wrapper div p {
+   margin: 0;
+}
+.skills-wrapper div img {
+   width: 36px;
+}
+.skills-wrapper div {
+   padding: 23px;
+   margin: 3rem 1.5rem;
+   border-radius: 10px;
+   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.summary header h2 {
+   text-align: center;
+}
+.skills {
+   display: flex;
+   align-items: center;
+   padding-top: 2rem;
+   justify-content: space-evenly;
+}
+.skills .left,
+.skills .right {
+   width: 80%;
+   margin: 0 2rem;
+}
+.sm-div-item {
+   width: 90%;
+   padding-top: 1.5rem;
+}
+.sm-div-item h5 {
+   color: #757575;
+}
+.skills hr {
+   border: 1px solid #d1d1d1;
+}
+.btn-summary {
+   display: block;
+   text-align: center;
+   width: 10%;
+   margin: auto;
+   margin-top: 5rem;
+}
+.skills .right .sm-div-item,
+.skills .right h2 {
+   width: 90%;
+   margin: 0 0 0 auto;
+}
+.footer {
+   background-color: #fff8f3;
+   padding: 6rem 0;
+   margin-top: 3rem;
+}
+.cfooter {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+.icon-group {
+   display: flex;
+}
+.icon-group img {
+   width: 24px;
+   margin-right: 12px;
+}
+.f-right,
+.f-left {
+   width: 40%;
+}
+.f-right form input,
+.f-right form textarea {
+   width: 100%;
+   padding: 15px;
+   border: none;
+   font-size: 16px;
+   background: #fff;
+}
+.f-right form input,
+.f-right form textarea {
+   width: 100%;
+   padding: 15px;
+   border: none;
+   font-size: 16px;
+   margin: 11px 0;
+   background: #fff;
+   border-radius: 10px;
+}
