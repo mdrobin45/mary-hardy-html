@@ -1,0 +1,66 @@
+/* Mobile responsive */
+@media screen and (max-width: 576px) {
+   .hero-wrapper .banner {
+      flex-direction: column;
+   }
+   .side-text {
+      display: none;
+   }
+   .banner-right img {
+      width: 90%;
+      margin: auto;
+      display: block;
+   }
+   a.btn {
+      display: block;
+      margin: 10px 0 !important;
+      text-align: center;
+   }
+   .banner-btn-group {
+      display: inherit;
+   }
+   .banner-left {
+      margin-right: 5%;
+   }
+   .hero-section {
+      padding: 0;
+   }
+   section.about-section {
+      width: inherit;
+      padding: 5%;
+   }
+   .about-person-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+   section.what-do header p {
+      width: inherit;
+   }
+   .skills-wrapper {
+      display: inherit;
+   }
+   .skills {
+      display: inherit;
+   }
+   .skills .left,
+   .skills .right {
+      width: 100%;
+      margin: inherit;
+   }
+   .skills .right .sm-div-item,
+   .skills .right h2 {
+      width: 100%;
+      margin: inherit;
+   }
+   a.btn.btn-summary {
+      width: 100%;
+   }
+   .cfooter {
+      display: inherit;
+      overflow: hidden;
+   }
+   .f-right,
+   .f-left {
+      width: 100%;
+   }
+}
